@@ -12,18 +12,19 @@ $(document).ready(function () {
 	var targetNumber = Math.floor(Math.random() * 102 + 19);
 	var wins = 0;
 	var loss = 0;
-	$('#numberWins').text(wins);
-	$('#numberLoss').text(loss);
+	$('#win').text(wins);
+	$('#loss').text(loss);
 
 	// reset function
 	function resetGame() {
-		$('#goal').text(targetNumber);
+		targetNumber = Math.floor(Math.random() * 102 + 19);
 		gemValue[1] = Math.floor(Math.random() * 12 + 1);
 		gemValue[2] = Math.floor(Math.random() * 12 + 1);
 		gemValue[3] = Math.floor(Math.random() * 12 + 1);
 		gemValue[4] = Math.floor(Math.random() * 12 + 1);
 		counter = 0;
 		$('#counter').text(counter);
+		$('#goal').text(targetNumber);
 
 	}
 
@@ -42,6 +43,7 @@ $(document).ready(function () {
 
 	//you win function...
 function winner(){
+	
 	wins++;
  $('#win').text(wins);
 	$('#counter').text('You Win!!');
@@ -50,9 +52,9 @@ function winner(){
 }
 // you lose function...
 function loser(){	
+	
 	loss++;
 	$('#loss').text(loss);
-
 	$('#counter').text('You Lose!!');
 	resetGame();
 	

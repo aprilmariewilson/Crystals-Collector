@@ -1,0 +1,34 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+navbar{
+padding-bottom: 20px;
+border-bottom: 4px solid red;
+padding: right 20px;
+
+}
+h1,
+h2{
+	text-align: center;
+	color: rgb(125, 113, 113);
+	
+}
+.button{
+	color: rgb(125, 113, 113);
+}
+
+body{
+	background-image: url("https://tse2.mm.bing.net/th?id=OIP.VJxnYO1bUvuLgvLGrAyr7gHaE8&pid=15.1&P=0&w=960&h=960");
+	width:100%;
+}
+
+.container{
+	background-image: url("https://sp.yimg.com/ib/th?id=OIP.S_S0gSrSFI8gEP4nLE9pfgHaEo&pid=15.1&rs=1&c=1&qlt=95&w=181&h=113");
+	padding: 15px;
+	width: 60%
+	text-align: center;
+	font-family: 'Coming Soon', cursive;
+}
