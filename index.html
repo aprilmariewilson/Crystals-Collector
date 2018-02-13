@@ -5,10 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Crystals Collector</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 
 	
 </head>
@@ -16,20 +17,22 @@
 <body>
 		<nav class="navbar navbar-default">
 				<div class="container-fluid">
-
-						<ul class="nav navbar-nav navbar-left">
-								
-								<li>
-										<button type="button" class="btn btn-default btn-lg">
-												<span class="glyphicon glyphicon-home"><a href="intro.html"></a></span>
-											</button>
-								</li>
-								<li class="active">
-										<button type="button" class="btn btn-default btn-lg">
-												<span class="glyphicon glyphicon-play"><a href="index.html"></a></span>
-											</button>
-								</li>
-							</ul>
+		
+					<ul class="nav navbar-nav navbar-left">
+		
+						<li>
+								<a href="intro.html"><button type="button" class="btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-home">
+										</span>
+									</button></a>
+						</li>
+						<li class="active">
+								<a href="index.html"><button type="button" class="btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-play">
+										</span>
+									</button></a>
+						</li>
+					</ul>
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -39,10 +42,10 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="https://github.com/aprilmariewilson" target="_blank"></a>
-							<h1>
-								<strong>Crystals Collector</strong>
-							</h1>
+						<a class="navbar-brand" href="https://github.com/aprilmariewilson" target="_blank">
+						<h1>
+							<strong>Crystals Collector</strong>
+						</h1>
 						</a>
 					</div>
 		
@@ -52,11 +55,15 @@
 		
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-									<h2>Games Won:  <span id='win'></span></h2>
+								<h2>Games Won:
+									<span id='win'></span>
+								</h2>
 								</a>
 							</li>
-									<h2>Games Lost:  <span id='loss'></span></h2>
-								</a>
+							<h2>Games Lost:
+								<span id='loss'></span>
+							</h2>
+							</a>
 							</li>
 						</ul>
 					</div>
@@ -81,40 +88,43 @@
 		
 				</div><!--/total score div-->
 			</div><!--/total score col-->
-	
 	</div>
 	<!--/score row-->
+	<div class="row">
+		<div class="col-xs-0 col-md-12">
+			<div class="space">
+			
+			</div>
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-xs-12 col-md-12">
 			<div class="container" id="gem-images">
 		<img src="Assets/images/purplegem.jpeg" alt="Purple gem" sizes="" id="gem1" srcset="https://tse3.mm.bing.net/th?id=OIP.zqI2fwHduS_YDElTrAsV7AHaHL&pid=15.1&P=0&w=180&h=175">
-		<img src="Assets/images/bluegem/jpeg" alt="Blue gem" sizes="" id="gem2" srcset="https://tse3.mm.bing.net/th?id=OIP.En2h_LZqqLvV6RQveWTJUQHaHa&pid=15.1&P=0&w=300&h=300">
-		<img src="Assets/images/redgem.jpeg" alt="Red gem" sizes="" id="gem3" srcset="https://tse4.mm.bing.net/th?id=OIP.kb5pg_aeQYNNTdn28d7V4QHaH6&pid=15.1&P=0&w=300&h=300">
-		<img src="Assets/images/multigem.jpeg" alt="Multi gem" sizes="" id="gem4" srcset="https://tse3.mm.bing.net/th?id=OIP.pmnuNJcXEKy-3F_KrxjPGwHaFb&pid=15.1&P=0&w=220&h=162">
+		<img src="Assets/images/bluegem/jpeg" alt="Blue gem" sizes="" id="gem2" srcset="https://tse3.mm.bing.net/th?id=OIP.En2h_LZqqLvV6RQveWTJUQHaHa&pid=15.1&P=0&w=180&h=175">
+		<img src="Assets/images/redgem.jpeg" alt="Red gem" sizes="" id="gem3" srcset="https://tse4.mm.bing.net/th?id=OIP.kb5pg_aeQYNNTdn28d7V4QHaH6&pid=15.1&P=0&w=180&h=175">
+		<img src="Assets/images/multigem.jpeg" alt="Multi gem" sizes="" id="gem4" srcset="https://tse3.mm.bing.net/th?id=OIP.pmnuNJcXEKy-3F_KrxjPGwHaFb&pid=15.1&P=0&w=220&h=175">
 	</div><!--gem div-->
 	</div><!--/gem col-->
 	</div><!--/gem row-->
+	<div class="row">
+		<div class="col-md-12">
+			<footer class="container-fluid bg-4 text-center">
+		<p>©Copywright 2018 April Wilson</p>
+	</footer>
+		</div>
+	</div>
 
 
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="Assets/javascript/game.js"></script>
 
-<!-- 
-<style>
-navbar{
-padding-bottom: 20px;
-border-bottom: 4px solid red;
-}
-h1{
-	text-align: center;
-	color:green;
-}
-body{
-	background-image: url("https://tse2.mm.bing.net/th?id=OIP.VJxnYO1bUvuLgvLGrAyr7gHaE8&pid=15.1&P=0&w=254&h=170") no-repeat;
-	width: 100%;
 
-</style> -->
+<style>
+
+
+</style>
 
 </body>
 

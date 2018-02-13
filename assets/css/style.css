@@ -1,34 +1,76 @@
-*{
-	box-sizing: border-box;
-	margin: 0;
-	padding:0;
-}
 
-navbar{
-padding-bottom: 20px;
-border-bottom: 4px solid red;
+.navbar{
+padding-bottom: 4%;
+border-bottom: 4px solid  rgb(125, 113, 113);
 padding: right 20px;
-
+background-image: url("https://tse3.mm.bing.net/th?id=OIP.KPvaSH_IxGh54xTQ5hYUnQHaEL&pid=15.1&P=0&w=1450&h=1200");
 }
-h1,
-h2{
+.navbar-brand{
 	text-align: center;
+	padding-bottom: 1%;
+}
+h1{
+	font-family: 'Coming Soon', cursive;
+	text-align: center;
+	font-size: 2.3em;
 	color: rgb(125, 113, 113);
-	
+	padding-left: 2%;
+	margin-left: 25%;
+	margin-bottom: 1%;
+}
+h2{
+	font-family: 'Coming Soon', cursive;
+	text-align: center;
+	font-size: 1.6em;
+	color: rgb(125, 113, 113);
 }
 .button{
 	color: rgb(125, 113, 113);
 }
 
 body{
-	background-image: url("https://tse2.mm.bing.net/th?id=OIP.VJxnYO1bUvuLgvLGrAyr7gHaE8&pid=15.1&P=0&w=960&h=960");
+	background-image: url("https://tse2.mm.bing.net/th?id=OIP.uyJjUMD_StM51Qsaux5TOgHaHa&pid=15.1&P=0&w=300&h=300");
 	width:100%;
 }
-
-.container{
-	background-image: url("https://sp.yimg.com/ib/th?id=OIP.S_S0gSrSFI8gEP4nLE9pfgHaEo&pid=15.1&rs=1&c=1&qlt=95&w=181&h=113");
-	padding: 15px;
-	width: 60%
+p{
 	text-align: center;
 	font-family: 'Coming Soon', cursive;
+	font-size: 1.2em;
+	line-height: 1.5;
+
+}
+.container {
+	background-image: url("https://tse3.mm.bing.net/th?id=OIP.KPvaSH_IxGh54xTQ5hYUnQHaEL&pid=15.1&P=0&w=1450&h=1200");
+	padding: 2%;
+	margin-top: 2%;
+	margin-left: 20%;
+	width: 60%;
+	border:4px solid rgb(125, 113, 113);
+	text-align: center;
+
+}
+.space{
+	margin-top:3%;
+	margin-bottom:3%;
+	padding-bottom:3%;
+	padding-top:3%;
+
+}
+.score{
+	border: 4px solid rgb(125, 113, 113);
+	background: whitesmoke;
+	margin: 1%;
+}
+footer{
+	color: whitesmoke;
+	background: rgb(125, 113, 113);
+	margin-top: 3%;
+	padding-top: 2%;
+	padding-bottom:2%;
+	text-align: center;
+	
+}
+.play{
+	margin-top: 2%;
+	text-align: center;
 }
