@@ -27,6 +27,9 @@ $(document).ready(function () {
 		$('#goal').text(targetNumber);
 
 	}
+	$.wait = function( callback, seconds){
+		return window.setTimeout( callback, 1 * 1000 );
+ }
 
 
 	//target number...
@@ -46,7 +49,8 @@ function winner(){
 	
 	wins++;
  $('#win').text(wins);
-	$('#counter').text('You Win!!');
+	$('#counter').text(counter);
+	$("#counter").delay(1000).fadeIn('You Win!!');
 	resetGame();
 	
 }
@@ -55,7 +59,8 @@ function loser(){
 	
 	loss++;
 	$('#loss').text(loss);
-	$('#counter').text('You Lose!!');
+	$('#counter').text(counter);
+	$("#counter").delay(1000).fadeIn('You Lose!!');
 	resetGame();
 	
 }

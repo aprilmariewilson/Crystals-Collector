@@ -74,3 +74,10 @@ footer{
 	margin-top: 2%;
 	text-align: center;
 }
+#gem1,
+#gem2,
+#gem3,
+#gem4{
+	border: 2px solid rgb(125, 113, 113);
+	margin: 1px;
+}
